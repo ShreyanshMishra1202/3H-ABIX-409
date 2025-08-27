@@ -2,9 +2,9 @@ import java.util.*;
 public class ATM_cal {
     public static void cal(int[] arr){
         int s=0,j=0;
-        for(int i=0;i<arr.length;i++){
-            s=s+arr[i];
-            if(s<0){
+        for (int k : arr) {
+            s = s + k;
+            if (s < 0) {
                 System.out.println("OverDraft.");
                 j++;
                 break;
