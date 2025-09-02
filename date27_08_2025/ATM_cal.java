@@ -1,3 +1,5 @@
+package date27_08_2025;
+
 import java.util.*;
 public class ATM_cal {
     public static void cal(int[] arr){

@@ -1,3 +1,5 @@
+package date27_08_2025;
+
 import java.util.Scanner;
 
 public class Cricket_Score_Analyzer {

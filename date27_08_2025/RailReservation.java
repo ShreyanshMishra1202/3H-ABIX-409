@@ -1,4 +1,5 @@
-package date27_08_2025;//Railway Reservation System
+package date27_08_2025;
+//Railway Reservation System
 //Problem Statement: Build a simple railway reservation app:Show train options with different fares (switch-case).
 //Take booking requests for passengers (for loop).
 //If seat not available → show waiting list (if-else).
