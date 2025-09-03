@@ -26,5 +26,13 @@ public class Animal {
         this.color = color;
     }
 
+    public Animal(Animal animal) {          // it takes Object created by upper Constructor as constructor
+        this.noOfEyes = animal.noOfEyes;
+        this.noOfLegs = animal.noOfLegs;
+        this.color = animal.color;
+        this.height = animal.height;
+        this.weight = animal.weight;
+        this.gender = animal.gender;
+    }
     // whenever we define a constructor manually, default constructor gets deleted
 }
