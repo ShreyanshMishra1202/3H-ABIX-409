@@ -1,15 +1,18 @@
-package OOPS_Assignment.JavaClassandObjectLevel1;
-
 public class Employee {
     String name;
     int id;
-    int salary;
+    double salary;
 
-    public static void main(String[] args) {
-        Employee emp = new Employee();
-        System.out.println(emp.name);
-        System.out.println(emp.id);
-        System.out.println(emp.salary);
+    public Employee(String name, int id, double salary) {
+        this.name = name;
+        this.id = id;
+        this.salary = salary;
     }
 
+    public void displayDetails() {
+        System.out.println("Employee ID: " + id);
+        System.out.println("Employee Name: " + name);
+        System.out.println("Employee Salary: " + salary);
+        System.out.println("-------------------------");
+    }
 }
