@@ -1,3 +1,7 @@
+package OOPS_Assignment.JavaClassandObjectLevel1;
+
+import OOPS_Assignment.JavaClassandObjectLevel1.Employee;
+
 public class EmployeeDetails {
     public static void main(String[] args) {
         Employee e1 = new Employee("Priyanshu", 101, 50000);
